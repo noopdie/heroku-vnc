@@ -25,6 +25,10 @@ RUN set -ex; \
         git \
         wget \
         g++ \
+	gimp \
+	inkscape\
+	fakeroot \
+	fakechroot \
         ssh \
 	chromium-browser \
         terminator \
