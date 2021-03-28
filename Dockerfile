@@ -25,8 +25,7 @@ RUN set -ex; \
         git \
         wget \
         g++ \
-	gimp \
-	inkscape\
+	ca-certificates \
 	fakeroot \
 	fakechroot \
         ssh \
