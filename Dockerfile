@@ -29,7 +29,6 @@ RUN set -ex; \
 	fakeroot \
 	fakechroot \
         ssh \
-        virtualbox \
 	chromium-browser \
         terminator \
         htop \
