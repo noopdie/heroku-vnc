@@ -62,7 +62,7 @@ RUN chmod +x /app/expect_vnc.sh
 #    && apt-get install -y --no-install-recommends \
 #        google-chrome-stable \
 #	anydesk
-
+RUN groupadd lol
 RUN echo xfce4-session >~/.xsession
 
 CMD ["/app/run.sh"]
